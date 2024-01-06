@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@martijn.cuppens/tailwindcss-fluid": "^1.0.0"
+  }
+}
