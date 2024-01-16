@@ -954,8 +954,16 @@ small,rt{
     left: 0px;
   }
 
-  .\33xl\:top-0{
-    top: 0px;
+  .\33xl\:left-2{
+    left: 0.5rem;
+  }
+
+  .\33xl\:left-10{
+    left: 2.5rem;
+  }
+
+  .\33xl\:left-20{
+    left: 5rem;
   }
 
   .\33xl\:min-h-screen{
