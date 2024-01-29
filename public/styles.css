@@ -901,12 +901,20 @@ small,rt{
 
 @media (min-width: 1px){
   @media not all and (min-width: 768px){
+    .xs\:max-md\:absolute{
+      position: absolute;
+    }
+
     .xs\:max-md\:flex{
       display: flex;
     }
 
-    .xs\:max-md\:min-h-screen{
-      min-height: 100vh;
+    .xs\:max-md\:h-full{
+      height: 100%;
+    }
+
+    .xs\:max-md\:w-full{
+      width: 100%;
     }
 
     .xs\:max-md\:flex-col{
@@ -952,18 +960,6 @@ small,rt{
 
   .\33xl\:left-0{
     left: 0px;
-  }
-
-  .\33xl\:left-2{
-    left: 0.5rem;
-  }
-
-  .\33xl\:left-10{
-    left: 2.5rem;
-  }
-
-  .\33xl\:left-20{
-    left: 5rem;
   }
 
   .\33xl\:min-h-screen{
